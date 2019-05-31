@@ -1,9 +1,13 @@
 # dg-jet
-python django django-jet
-创建项目
+python django django-jet创建项目
+
+
 利用django-admin startproject 创建项目
+
+
 下载django-jet
 pip install django-jet
+
 在setting.py中配置
 INSTALLED_APPS = (
     ...
@@ -27,6 +31,7 @@ TEMPLATES = [
     },
 ]
 
+
 在urls中配置
 urlpatterns = patterns(
     '',
@@ -35,6 +40,8 @@ urlpatterns = patterns(
     ...
 )
 
+
 然后运行python manage.py migrate jet
-其他配置可以参考
-https://jet.readthedocs.io/en/latest/install.html
+
+
+其他配置可以参考https://jet.readthedocs.io/en/latest/install.html
